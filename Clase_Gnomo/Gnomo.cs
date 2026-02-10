@@ -16,10 +16,11 @@ namespace Clase_Gnomo
 
         protected int vida;
 
-        public Gnomo(string nombre, string color)
+        public Gnomo(string nombre, string color, int vida)
         {
             this.nombre = nombre;
             this.color = color;
+            this.vida = vida;
         }
     }
 
