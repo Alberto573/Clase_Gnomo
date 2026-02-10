@@ -14,6 +14,8 @@ namespace Clase_Gnomo
         
         protected string color;
 
+        protected int vida;
+
         public Gnomo(string nombre, string color)
         {
             this.nombre = nombre;
